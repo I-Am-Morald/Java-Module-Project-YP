@@ -11,7 +11,7 @@ class Car {
 
 class Race {
     String leaderName;
-    int distance;
+    int distance = 0;
     public void takeLeader(Car car) {
         int distance = car.speed * 24;
         if (this.distance < distance) {
